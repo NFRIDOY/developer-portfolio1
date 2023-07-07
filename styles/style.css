@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 body {
     font-family: Open Sans;
@@ -10,7 +9,7 @@ body {
     --blue: #1e90ff;
     --white: #ffffff;
     --org: #fd6e0a;
-    --ban: #FFF8F3;
+    --ban: #fff8f3;
 }
 a {
     text-decoration: none;
@@ -29,9 +28,9 @@ nav {
     padding: 20px 226px;
     justify-content: center;
     align-items: center;
-    
 }
-nav > ul > li, .btn-hireMe {
+nav > ul > li,
+.btn-hireMe {
     display: inline;
     margin-right: 50px;
     font-size: 20px;
@@ -39,7 +38,7 @@ nav > ul > li, .btn-hireMe {
     font-weight: 700;
     line-height: normal;
 }
-.btn-hireMe a{
+.btn-hireMe a {
     color: white;
 }
 nav > ul {
@@ -53,15 +52,34 @@ nav > ul {
     border-radius: 5px;
     border: none;
     background: #fd6e0a;
-    
 }
-.header {
-    background-image: url("images/developer.png");  
+.header1 {
+    background-image: url("images/developer.png");
     /* background-color: red; */
     height: 100vh;
     background-color: var(--ban);
 }
 .Banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Banner > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner1 {
 
 }
-
+.bannerText h1{
+    color: var(--dark-01, #181818);
+    /* font-family: Open Sans; */
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.BannerImg {
+    background-image: url("images/header_bg.png");
+}
