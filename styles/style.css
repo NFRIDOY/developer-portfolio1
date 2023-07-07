@@ -1,4 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    
 }
+body {
+    font-family: Open Sans;
+}
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --org: #fd6e0a;
+    --ban: #FFF8F3;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.textR {
+    color: var(--org);
+}
+nav {
+    display: flex;
+    padding: 20px 226px;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav > ul > li, .btn-hireMe {
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.btn-hireMe a{
+    color: white;
+}
+nav > ul {
+    margin-left: auto;
+}
+.btn-hireMe {
+    background-color: var(--org);
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    background: #fd6e0a;
+    
+}
+.header {
+    background-image: url("images/developer.png");  
+    /* background-color: red; */
+    height: 100vh;
+    background-color: var(--ban);
+}
+.Banner {
+
+}
+
