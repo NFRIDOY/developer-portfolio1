@@ -37,6 +37,7 @@ nav > ul > li,
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    color: white;
 }
 .btn-hireMe a {
     color: white;
@@ -65,15 +66,26 @@ nav > ul {
 .Banner {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-left: 200px;
+    
 }
-.Banner > div{
-    display: flex;
+.bannerDiv{
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
+    /* padding: 20px 200px; */
+    /* background-image: url("../images/header_bg.png"); */
+    
 }
 .banner1 {
-
+    /* width: 49%; */
+}
+.bannerText {
+    
 }
 .bannerText h1{
     color: var(--dark-01, #181818);
@@ -84,5 +96,14 @@ nav > ul {
     line-height: normal;
 }
 .BannerImg {
-    background-image: url("images/header_bg.png");
+    
+}
+.titleImg{ 
+    height: fit-content;
+}
+.mainSection {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
