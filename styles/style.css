@@ -25,7 +25,7 @@ a {
 }
 nav {
     display: flex;
-    padding: 20px 226px;
+    padding: 20px 200px;
     justify-content: center;
     align-items: center;
 }
@@ -54,7 +54,10 @@ nav > ul {
     background: #fd6e0a;
 }
 .header1 {
-    background-image: url("images/developer.png");
+    background-image: url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 90px;
     /* background-color: red; */
     height: 100vh;
     background-color: var(--ban);
